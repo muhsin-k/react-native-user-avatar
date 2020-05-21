@@ -1,17 +1,6 @@
-n# react-native-user-avatar
+# react-native-user-avatar
 
-An user avatar component for react-native.
-
-This component display an avatar image and if none is provided fallback to the
-user initials.
-
-Rules used to compute user initials:
-
-- divide the username on space and hyphen
-- use the first letter of each parts
-- never use more than three letters as initials
-- if the username is divided in more than three parts and has part
-  starting with an uppercase, skip parts starting with a lowercase.
+A react native user avatar component with progressive loading and text fallback support.
 
 ## Installation
 
@@ -68,14 +57,10 @@ import UserAvatar from "@muhzi/react-native-user-avatar";
     <tr><td>backgroundColors</td>
     <td> ['#575fcf', '#ef5777', '#0be881'] </td>
     <td> Array </td>
-    <td>Array of background colors to choose from, if there is no background color is specified</td></tr>
+    <td>Array of background colors to choose from, if no background color is specified</td></tr>
    </tbody>
 </table>
 
 ## License
 
 MIT
-
-```
-
-```
