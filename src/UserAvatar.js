@@ -1,16 +1,16 @@
-import React, {useState} from 'react';
-import {View, Image, Text, TouchableOpacity} from 'react-native';
-import PropTypes from 'prop-types';
+import React, { useState } from "react";
+import { View, Image, Text, TouchableOpacity } from "react-native";
+import PropTypes from "prop-types";
 
 import {
   getUserInitial,
   getRandomColor,
   getContainerStyle,
   getTextStyle,
-} from './utils';
-import ImageLoader from './ImageLoader';
+} from "./utils";
+import ImageLoader from "./ImageLoader";
 
-import constants from './constants';
+import constants from "./constants";
 
 const propTypes = {
   initialName: PropTypes.string,
@@ -56,12 +56,12 @@ const UserAvatar = ({
   active,
 }) => {
   const [imageLoading, onLoadImage] = useState(false);
-  const userInitialName = initialName || getUserInitial({userName});
+  const userInitialName = initialName || getUserInitial({ userName });
   const avatarBackgroundColor =
-    backgroundColor || getRandomColor({userName, backgroundColors});
+    backgroundColor || getRandomColor({ userName, backgroundColors });
 
-  const containerStyle = getContainerStyle({size, rounded});
-  const textStyle = getTextStyle({textColor, size, fontSize});
+  const containerStyle = getContainerStyle({ size, rounded });
+  const textStyle = getTextStyle({ textColor, size, fontSize });
 
   return (
     <TouchableOpacity onPress={onPress}>
@@ -90,7 +90,8 @@ const UserAvatar = ({
             {
               backgroundColor: avatarBackgroundColor,
             },
-          ]}>
+          ]}
+        >
           <Text style={textStyle}>{userInitialName}</Text>
         </View>
       )}

@@ -1,3 +1,3 @@
-import UserAvatar from "./UserAvatar";
+import UserAvatar from "./src/UserAvatar";
 
 export default UserAvatar;
