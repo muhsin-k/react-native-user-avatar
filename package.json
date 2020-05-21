@@ -1,18 +1,33 @@
 {
   "name": "@muhzi/react-native-user-avatar",
-  "version": "1.0.0",
-  "description": "",
+  "author": "Muhsin.k <muhsinkeramam@gmail.com>",
+  "version": "1.0.1",
+  "description": "React native user avatar component with progressive loading and text fallback support",
   "private": false,
   "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react",
+    "flex",
+    "avatar",
+    "initials",
+    "image"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "muhzi",
-  "license": "MIT",
   "dependencies": {
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.59.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhsin-k/react-native-user-avatar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhsin-k/react-native-user-avatar/issues"
+  },
+  "license": "MIT"
 }
