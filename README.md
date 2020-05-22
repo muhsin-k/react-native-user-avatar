@@ -1,8 +1,13 @@
+![](https://img.shields.io/npm/v/@muhzi/react-native-user-avatar.svg?style=flat)
+![](https://img.shields.io/npm/dt/@muhzi/react-native-user-avatar.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+![](https://img.shields.io/npm/l/@muhzi/react-native-user-avatar.svg)
+
 # react-native-user-avatar
 
 A react native user avatar component with progressive loading and text fallback support.
 
-## Installation
+### Installation
 
 `yarn add @muhsin/react-native-user-avatar`
 
@@ -10,11 +15,15 @@ A react native user avatar component with progressive loading and text fallback 
 
 ```js
 import UserAvatar from "@muhzi/react-native-user-avatar";
-
-<UserAvatar userName={name} src={avatar_url} backgroundColor="#0be881" />;
 ```
 
-## Props
+Simply place a `<UserAvatar/>` component.
+
+```js
+<UserAvatar userName="John Samuel" backgroundColor="#0be881" />
+```
+
+### Props
 
 <table class="table">
 <thead><tr>
@@ -44,7 +53,7 @@ import UserAvatar from "@muhzi/react-native-user-avatar";
     <td>The avatar size</td></tr>
   <tr><td>rounded</td>
     <td> true </td>
-    <td> Boolean </td>
+     <td> Boolean </td>
     <td>True if the avatar must be rounded.</td></tr>
      <tr><td>loaderColor</td>
     <td> #aaa69d </td>
@@ -61,6 +70,10 @@ import UserAvatar from "@muhzi/react-native-user-avatar";
    </tbody>
 </table>
 
-## License
+### Author
 
-MIT
+[Muhsin K](https://muhzi.com/)
+
+### License
+
+[MIT](./LICENSE)
