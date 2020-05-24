@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Image, Text, TouchableOpacity } from "react-native";
+import { View, Image, Text } from "react-native";
 import PropTypes from "prop-types";
 
 import {
@@ -24,7 +24,6 @@ const propTypes = {
   fontSize: PropTypes.number,
   rounded: PropTypes.bool,
   backgroundColors: PropTypes.arrayOf(PropTypes.string),
-  onPress: PropTypes.func,
   active: PropTypes.bool,
 };
 
@@ -54,7 +53,6 @@ const UserAvatar = ({
   rounded,
   backgroundColors,
   activeCircleColor,
-  onPress,
   active,
 }) => {
   const [imageLoading, onLoadImage] = useState(false);
@@ -66,7 +64,7 @@ const UserAvatar = ({
   const textStyle = getTextStyle({ textColor, size, fontSize });
 
   return (
-    <TouchableOpacity onPress={onPress}>
+    <View>
       {src ? (
         <View>
           <Image
@@ -117,7 +115,7 @@ const UserAvatar = ({
           ]}
         />
       )}
-    </TouchableOpacity>
+    </View>
   );
 };
 UserAvatar.propTypes = propTypes;
