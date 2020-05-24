@@ -33,7 +33,6 @@ const defaultProps = {
   userName: null,
   src: null,
   size: constants.SIZE,
-  backgroundColor: constants.BACKGROUND_COLOR,
   backgroundColors: constants.BACKGROUND_COLORS,
   loaderColor: constants.LOADER_COLOR,
   textColor: constants.TEXT_COLOR,
