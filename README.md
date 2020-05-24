@@ -7,6 +7,12 @@
 
 A react native user avatar component with progressive loading and text fallback support.
 
+### Screenshots
+
+|                    iOS Screenshot                    |                      Android Screenshot                       |
+| :--------------------------------------------------: | :-----------------------------------------------------------: |
+| <img src="./assets/ios.png" title="iOS" width="250"> | <img src="./assets/android.jpeg" title="Android" width="250"> |
+
 ### Installation
 
 ```sh
