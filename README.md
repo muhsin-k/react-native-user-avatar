@@ -1,11 +1,16 @@
+<h1 align="center">
+react-native-user-avatar
+</h1>
+<div align="center">
+
 ![](https://img.shields.io/npm/v/@muhzi/react-native-user-avatar.svg?style=flat)
 ![](https://img.shields.io/npm/dt/@muhzi/react-native-user-avatar.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 ![](https://img.shields.io/npm/l/@muhzi/react-native-user-avatar.svg)
 
-# react-native-user-avatar
+</div>
 
-A react native user avatar component with progressive loading and text fallback support.
+<h4 align="center">A react native user avatar component with progressive loading and text fallback support.</h4>
 
 <p align="center" >
    <img src="./assets/ios.png" title="iOS" width="250">
