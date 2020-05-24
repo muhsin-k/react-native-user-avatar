@@ -9,7 +9,11 @@ A react native user avatar component with progressive loading and text fallback 
 
 ### Installation
 
-`yarn add @muhzi/react-native-user-avatar`
+```sh
+npm install @muhzi/react-native-user-avatar
+#OR
+yarn add @muhzi/react-native-user-avatar
+```
 
 ### How to use?
 
