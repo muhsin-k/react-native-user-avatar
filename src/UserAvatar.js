@@ -20,6 +20,7 @@ const propTypes = {
   backgroundColor: PropTypes.string,
   loaderColor: PropTypes.string,
   textColor: PropTypes.string,
+  activeCircleColor: PropTypes.string,
   fontSize: PropTypes.number,
   rounded: PropTypes.bool,
   backgroundColors: PropTypes.arrayOf(PropTypes.string),
@@ -36,6 +37,7 @@ const defaultProps = {
   backgroundColors: constants.BACKGROUND_COLORS,
   loaderColor: constants.LOADER_COLOR,
   textColor: constants.TEXT_COLOR,
+  activeCircleColor: constants.ACTIVE_CIRCLE_COLOR,
   fontSize: constants.FONT_SIZE,
   rounded: true,
   active: false,
@@ -52,6 +54,7 @@ const UserAvatar = ({
   fontSize,
   rounded,
   backgroundColors,
+  activeCircleColor,
   onPress,
   active,
 }) => {
@@ -94,6 +97,26 @@ const UserAvatar = ({
         >
           <Text style={textStyle}>{userInitialName}</Text>
         </View>
+      )}
+      {active && !imageLoading && (
+        <View
+          style={[
+            {
+              backgroundColor: activeCircleColor,
+              position: "absolute",
+              alignSelf: "flex-end",
+              borderColor: "white",
+              borderWidth: 2,
+            },
+            {
+              width: size / 4,
+              height: size / 4,
+              borderRadius: size / 4,
+              bottom: rounded ? size / 32 : -(size / 32),
+              right: rounded ? size / 32 : -(size / 32),
+            },
+          ]}
+        />
       )}
     </TouchableOpacity>
   );
