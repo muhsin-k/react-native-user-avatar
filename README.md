@@ -42,11 +42,18 @@ Simply place a `<UserAvatar/>` component.
     <td> - </td>
     <td> String </td>
     <td>Path of image.</td></tr>
- 
+  <tr><td>active</td>
+    <td> false </td>
+    <td> Boolean </td>
+    <td>Whether the user is active or not.(Show active circle around avatar)</td></tr>
   <tr><td>textColor</td>
     <td> #FFFF </td>
     <td> String </td>
     <td>The font color used to render the user initials</td></tr>
+    <tr><td>activeCircleColor</td>
+    <td> #27ae60 </td>
+    <td> String </td>
+    <td>Background color active circle</td></tr>
   <tr><td>size</td>
     <td> 64 </td>
     <td> Number </td>
