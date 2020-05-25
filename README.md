@@ -13,8 +13,7 @@ react-native-user-avatar
 <h4 align="center">A react native user avatar component with progressive loading and text fallback support.</h4>
 
 <p align="center" >
-   <img src="./assets/ios.png" title="iOS" width="400">
-  
+   <img src="https://www.dropbox.com/s/c51kdcdzaq3b6nw/screenshot.png?dl=1" title="screenshot" width="400">
 </p>
 
 ### Installation
@@ -34,7 +33,13 @@ import UserAvatar from "@muhzi/react-native-user-avatar";
 Simply place a `<UserAvatar/>` component.
 
 ```js
-<UserAvatar userName="John Samuel" backgroundColor="#0be881" />
+<UserAvatar
+  userName="John Samuel"
+  size={80}
+  backgroundColor="#0be881"
+  src="https://images.pexels.com/photos/4403924/pexels-photo-4403924.jpeg"
+  active
+/>
 ```
 
 ### Props
@@ -47,7 +52,7 @@ Simply place a `<UserAvatar/>` component.
   <tr><td>userName</td>
     <td> - </td>
     <td> String </td>
-    <td>The user name that will be used to compute user initial name.</td></tr>
+    <td>The user name that will be used to compute user initials.</td></tr>
   <tr><td>initialName</td>
     <td> - </td>
     <td> String </td>
