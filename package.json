@@ -1,7 +1,7 @@
 {
   "name": "@muhzi/react-native-user-avatar",
   "author": "Muhsin.k <muhsinkeramam@gmail.com>",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "React native user avatar component with progressive loading and text fallback support",
   "private": false,
   "main": "index.js",
