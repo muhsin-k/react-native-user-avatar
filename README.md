@@ -16,6 +16,10 @@ react-native-user-avatar
    <img alt="screenshot" src="https://user-images.githubusercontent.com/12408980/82775711-1b4b6480-9e66-11ea-96fc-907dfbbd8277.png" title="iOS" width="400">
 </p>
 
+### Demo
+
+You can find [Snack](https://expo.io/) expo example [here](https://snack.expo.io/@muhsin/react-native-user-avatar)
+
 ### Installation
 
 ```sh
