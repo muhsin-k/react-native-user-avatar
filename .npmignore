@@ -10,5 +10,6 @@ tmp
 
 # Examples
 examples
+examples/
 
 .DS_Store
