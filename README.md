@@ -13,7 +13,7 @@ react-native-user-avatar
 <h4 align="center">A react native user avatar component with progressive loading and text fallback support.</h4>
 
 <p align="center" >
-   <img src="https://www.dropbox.com/s/c51kdcdzaq3b6nw/screenshot.png?dl=1" title="screenshot" width="400">
+   <img alt="screenshot" src="https://user-images.githubusercontent.com/12408980/82775711-1b4b6480-9e66-11ea-96fc-907dfbbd8277.png" title="iOS" width="400">
 </p>
 
 ### Installation
